@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link href="../../dist/output.css" rel="stylesheet" />
+    <title>Brainstormer 100</title>
+  </head>
+  <body>
+    <div class="m-5">
+      <h1 class="">Brainstormer 100</h1>
+      <p>Brainstorm 100 ideas fast and efficiently</p>
+      <hr />
+    </div>
+    <div>
+      <label class="font-bold">Add Idea: </label>
+      <br />
+      <span id="idea-number">#1</span>
+      <input type="text" id="add-field" />
+      <button id="add-btn">ADD</button>
+      <p id="info"></p>
+    </div>
+    <div>
+      <h3>Current list of ideas:</h3>
+      <textarea id="idea-list" value="asd" cols="79" rows="18"></textarea>
+      <br />
+      <div class="flex items-center justify-between">
+        <div class="flex ml-24">
+          <button class="mr-2" id="reset">Reset</button>
+        </div>
+        <div>
+          <button id="save-to-txt-btn">Save to txt</button>
+          <button id="load-btn">Load from file</button>
+        </div>
+        <div class="mr-24">
+          <a href="./top-10.html"><button id="next-btn">Next</button></a>
+        </div>
+      </div>
+      <p class="text-green-700" id="bottom-info"></p>
+    </div>
+
+    <script type="module" src="../scripts/index.js"></script>
+  </body>
+</html>

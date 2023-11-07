@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply to-gray-700 from-gray-800 bg-gradient-to-r text-gray-200 text-center;
+}
+h1 {
+  @apply text-center text-3xl font-bold mt-5 mb-0 text-3xl font-bold italic;
+}
+
+p {
+  @apply mb-3;
+}
+
+input {
+  @apply bg-slate-300 rounded text-center border-2 shadow w-96 shadow-black border-gray-500 focus:outline-none  focus:border-green-800 text-black;
+}
+
+textarea {
+  @apply bg-slate-300 rounded border-2  shadow shadow-black border-gray-500 text-black focus:outline-none  focus:border-green-800;
+}
+
+button {
+  @apply bg-slate-300 p-1 text-black rounded font-bold border-2 shadow shadow-black border-gray-500 text-xs focus:outline-none  focus:border-green-800 hover:border-green-800;
+}

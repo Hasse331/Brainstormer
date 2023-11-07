@@ -1,0 +1,16 @@
+{
+  "name": "brainstormer",
+  "version": "1.0.0",
+  "description": "100 ideas to brainstorm",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Hasse",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.3",
+    "electron-reload": "^2.0.0-alpha.1",
+    "tailwindcss": "^3.3.5"
+  }
+}
